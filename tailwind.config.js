@@ -1,9 +1,12 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./App.tsx", "./components/**/*.{js,jsx,ts,tsx}"],
-  presets: [require("nativewind/preset")],
+  future: {
+    // removeDeprecatedGapUtilities: true,
+    // purgeLayersByDefault: true,
+  },
+  purge: [],
   theme: {
     extend: {},
   },
+  variants: {},
   plugins: [],
 }
