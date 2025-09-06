@@ -2,12 +2,10 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-    "module": "esnext",
-    "target": "esnext",
-    "jsx": "react-jsx",
-    "types": ["nativewind/types"],
     "baseUrl": ".",
-    "paths": {"@/*": ["src/*"]}
-  },
-  "include": ["src"]
+    "types": ["nativewind/types"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
 }
